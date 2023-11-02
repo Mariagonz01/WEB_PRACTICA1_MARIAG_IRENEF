@@ -1,25 +1,3 @@
 
 
-footer{
-   margin: 0;
-   background-color: #283618;
-   color:white;
-}
-
-.suscribir{
-   background-color:#283618;
-   color:white;
-   border-color: white;
-}
-
-.suscribir:hover{
-   background-color:white;
-   color:#283618;
-   border-color: #283618;
-}
-
-.newsletter{
-   padding-right: 70px;
-   margin-left: 0;
-}
 
