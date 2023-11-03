@@ -1,0 +1,18 @@
+
+
+.row>*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.shop-card{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+.texto-encima{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
