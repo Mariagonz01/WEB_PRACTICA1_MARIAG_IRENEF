@@ -31,8 +31,11 @@ body{
     left: 50px;
 }
 
-<<<<<<< HEAD
- 
+.foto1:hover{
+   color: #283618;
+   cursor: pointer;
+}
+
 
 /* Footer */
 
@@ -82,8 +85,3 @@ footer{
     font-weight: 200;
     padding-top: 8px !important;
  }
-=======
-.foto1{
-;
-}
->>>>>>> Irene
