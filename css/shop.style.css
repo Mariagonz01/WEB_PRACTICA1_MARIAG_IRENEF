@@ -31,6 +31,12 @@ body{
     left: 50px;
 }
 
+.cuatro{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
 /* Footer */
 
 footer{
@@ -80,6 +86,17 @@ footer{
     padding-top: 8px !important;
  }
 
+
+ /* Card */
+.row{
+   --bs-gutter-x:0rem;
+}
+
+ .card{
+   --bs-card-border-width: none !important;
+   --bs-card-border-radius: none !important;
+   --bs-card-inner-border-radius: none !important;
+ }
 
  /* foto overlay */
 
