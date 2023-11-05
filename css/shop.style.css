@@ -31,12 +31,6 @@ body{
     left: 50px;
 }
 
-.foto1:hover{
-   color: #283618;
-   cursor: pointer;
-}
-
-
 /* Footer */
 
 footer{
@@ -85,3 +79,37 @@ footer{
     font-weight: 200;
     padding-top: 8px !important;
  }
+
+
+ /* foto overlay */
+
+ .image-container{
+    position: relative;
+    width: 359px;
+ }
+
+ .image-container img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+ }
+
+ .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Inicialmente transparente */
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+ }
+
+ .image-container:hover .overlay {
+    background-color: rgba(51, 22, 167, 0.7); /* Color de fondo con opacidad al pasar el cursor */
+    opacity: 1;
+}

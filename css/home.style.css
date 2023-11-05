@@ -14,15 +14,22 @@ p{
 
 /* Header */
 
-
-.bg-body-tertiary {
-   --bs-bg-opacity: 1;
-   background-color: rgba(255, 255, 255, 0.199)!important;
-}
-
 #header{
    justify-content: center;
 }
+
+
+.header-text{
+   font-size: 12px;
+   font-weight: 700;
+   color: #606C38;
+}
+
+.bg-success{
+   background-color: rgba(255, 255, 255, 0)!important;
+}
+
+
 
 /* Footer */
 
