@@ -14,17 +14,42 @@ p{
 
 /* Header */
 
+#header{
+   justify-content: center;
+}
+
+.header-text{
+   font-size: 12px !important;
+   font-weight:700px !important;
+   color: #283618 !important;
+   background-color: BC6C25;
+}
+
+.pagina-actual{
+   font-weight: bolder;
+   background-color: #BC6C25;
+   border-style: solid;
+   border-color: #283618;
+   border-width: 2px;
+}
+
 .logoheader{
    align-items: left;
 }
 
 .bg-body-tertiary {
    --bs-bg-opacity: 1;
-   background-color: rgba(255, 255, 255, 0.199)!important;
+   background-color: rgba(255, 255, 255, 0)!important;
    padding: 0, 20%, 0, 2%;
 }
 
 .navbar-toggler{
+   --bs-bg-opacity: 1;
+   background-color: rgba(255, 255, 255, 0)!important;
+   padding: 0, 20%, 0, 2%;
+}
+
+.navbar-collapse{
    border-style: none;
 }
 
@@ -56,12 +81,6 @@ p{
    font-weight: 700;
    color: #606C38;
 }
-
-.bg-success{
-   background-color: rgba(255, 255, 255, 0)!important;
-}
-
-
 
 /* Footer */
 
@@ -110,6 +129,10 @@ footer{
    font-size:11px ;
    font-weight: 200;
    padding-top: 8px !important;
+}
+
+.logofooter{
+  margin-top: 2.5%;
 }
 
 

@@ -12,6 +12,75 @@ body{
     font-weight: 300;
  }
 
+  /* Header */
+
+#header{
+   justify-content: center;
+}
+
+.header-text{
+   font-size: 12px !important;
+   font-weight:700px !important;
+   color: #283618 !important;
+   background-color: BC6C25;
+}
+
+.pagina-actual{
+   font-weight: bolder;
+   background-color: #BC6C25;
+   border-style: solid;
+   border-color: #283618;
+   border-width: 2px;
+}
+
+.logoheader{
+   align-items: left;
+}
+
+.bg-body-tertiary {
+   --bs-bg-opacity: 1;
+   background-color: rgba(255, 255, 255, 0)!important;
+   padding: 0, 20%, 0, 2%;
+}
+
+.navbar-toggler{
+   --bs-bg-opacity: 1;
+   background-color: rgba(255, 255, 255, 0)!important;
+   padding: 0, 20%, 0, 2%;
+}
+
+.navbar-collapse{
+   border-style: none;
+}
+
+.col3{
+   margin-top: 0.5%;
+}
+
+@media (max-width:990px) {
+   .col1{
+      display: none;
+   }
+}
+
+@media (max-width:990px) {
+   .col3{
+      display: none;
+   }
+}
+
+@media (min-width:990px) {
+   .icono{
+      display: none;
+   }
+}
+
+.header-text{
+   font-size: 12px;
+   font-weight: 700;
+   color: #606C38;
+}
+
  /* Shop */
 
 .row>*{
@@ -129,4 +198,108 @@ footer{
  .image-container:hover .overlay {
     background-color: rgba(51, 22, 167, 0.7); /* Color de fondo con opacidad al pasar el cursor */
     opacity: 1;
+}
+
+footer{
+    margin: 0;
+    background-color: #283618;
+    color:white;
+    padding-bottom: 0px !important;
+ }
+ 
+ .py-5{
+    padding-bottom: 0px !important;
+ }
+ 
+ .suscribir{
+    background-color:#283618;
+    color:white;
+    border-color: white;
+    --bs-btn-color: #fff;
+     --bs-btn-bg: #283618;
+     --bs-btn-border-color: #283618;
+     --bs-btn-hover-color: #283618;
+     --bs-btn-hover-bg: white;
+     --bs-btn-hover-border-color: #283618;
+     --bs-btn-active-color: #fff;
+     --bs-btn-active-bg: #283618;
+     --bs-btn-active-border-color: white;
+     --bs-btn-focus-shadow-rgb: none;
+     --bs-btn-active-shadow: none;
+     --bs-btn-disabled-color: #fff;
+     --bs-btn-disabled-bg: #283618;
+     --bs-btn-disabled-border-color: white;
+ }
+ 
+ .form{
+    flex-direction: column !important;
+ }
+ 
+ .newsletter{
+    padding-right: 70px;
+    margin-left: 0;
+ }
+ 
+ .f-link{
+    color: white !important;
+    font-size:11px ;
+    font-weight: 200;
+    padding-top: 8px !important;
+ }
+
+ .logofooter{
+   margin-top: 2.5%;
+ }
+
+ /* Footer */
+
+footer{
+   margin: 0;
+   background-color: #283618;
+   color:white;
+   padding-bottom: 0px !important;
+}
+
+.py-5{
+   padding-bottom: 0px !important;
+}
+
+.suscribir{
+   background-color:#283618;
+   color:white;
+   border-color: white;
+   --bs-btn-color: #fff;
+    --bs-btn-bg: #283618;
+    --bs-btn-border-color: #283618;
+    --bs-btn-hover-color: #283618;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: #283618;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #283618;
+    --bs-btn-active-border-color: white;
+    --bs-btn-focus-shadow-rgb: none;
+    --bs-btn-active-shadow: none;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #283618;
+    --bs-btn-disabled-border-color: white;
+}
+
+.form{
+   flex-direction: column !important;
+}
+
+.newsletter{
+   padding-right: 70px;
+   margin-left: 0;
+}
+
+.f-link{
+   color: white !important;
+   font-size:11px ;
+   font-weight: 200;
+   padding-top: 8px !important;
+}
+
+.logofooter{
+  margin-top: 2.5%;
 }

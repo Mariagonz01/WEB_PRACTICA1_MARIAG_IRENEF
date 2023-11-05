@@ -12,6 +12,75 @@ body{
     font-weight: 300;
  }
 
+/* Header */
+
+#header{
+   justify-content: center;
+}
+
+.header-text{
+   font-size: 12px !important;
+   font-weight:700px !important;
+   color: #283618 !important;
+   background-color: BC6C25;
+}
+
+.pagina-actual{
+   font-weight: bolder;
+   background-color: #BC6C25;
+   border-style: solid;
+   border-color: #283618;
+   border-width: 2px;
+}
+
+.logoheader{
+   align-items: left;
+}
+
+.bg-body-tertiary {
+   --bs-bg-opacity: 1;
+   background-color: rgba(255, 255, 255, 0)!important;
+   padding: 0, 20%, 0, 2%;
+}
+
+.navbar-toggler{
+   --bs-bg-opacity: 1;
+   background-color: rgba(255, 255, 255, 0)!important;
+   padding: 0, 20%, 0, 2%;
+}
+
+.navbar-collapse{
+   border-style: none;
+}
+
+.col3{
+   margin-top: 0.5%;
+}
+
+@media (max-width:990px) {
+   .col1{
+      display: none;
+   }
+}
+
+@media (max-width:990px) {
+   .col3{
+      display: none;
+   }
+}
+
+@media (min-width:990px) {
+   .icono{
+      display: none;
+   }
+}
+
+.header-text{
+   font-size: 12px;
+   font-weight: 700;
+   color: #606C38;
+}
+
  /* Footer */
 
 footer{
