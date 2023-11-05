@@ -14,8 +14,40 @@ p{
 
 /* Header */
 
-#header{
-   justify-content: center;
+.logoheader{
+   align-items: left;
+}
+
+.bg-body-tertiary {
+   --bs-bg-opacity: 1;
+   background-color: rgba(255, 255, 255, 0.199)!important;
+   padding: 0, 20%, 0, 2%;
+}
+
+.navbar-toggler{
+   border-style: none;
+}
+
+.col3{
+   margin-top: 0.5%;
+}
+
+@media (max-width:990px) {
+   .col1{
+      display: none;
+   }
+}
+
+@media (max-width:990px) {
+   .col3{
+      display: none;
+   }
+}
+
+@media (min-width:990px) {
+   .icono{
+      display: none;
+   }
 }
 
 
