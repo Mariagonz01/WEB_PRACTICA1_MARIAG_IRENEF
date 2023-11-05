@@ -1,8 +1,19 @@
-footer{
-   margin: 0;
-   background-color: #283618;
-   color:white;
+body{
+   font-family: 'Poppins', sans-serif;
 }
+
+h6{
+   font-size: 12;
+   font-weight: 700;
+}
+
+p{
+   font-size: 12px;
+   font-weight: 300;
+}
+
+/* Header */
+
 
 .bg-body-tertiary {
    --bs-bg-opacity: 1;
@@ -11,6 +22,19 @@ footer{
 
 #header{
    justify-content: center;
+}
+
+/* Footer */
+
+footer{
+   margin: 0;
+   background-color: #283618;
+   color:white;
+   padding-bottom: 0px !important;
+}
+
+.py-5{
+   padding-bottom: 0px !important;
 }
 
 .suscribir{
@@ -33,6 +57,10 @@ footer{
     --bs-btn-disabled-border-color: white;
 }
 
+.form{
+   flex-direction: column !important;
+}
+
 .newsletter{
    padding-right: 70px;
    margin-left: 0;
@@ -40,4 +68,9 @@ footer{
 
 .f-link{
    color: white !important;
+   font-size:11px ;
+   font-weight: 200;
+   padding-top: 8px !important;
 }
+
+
