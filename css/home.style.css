@@ -170,14 +170,14 @@ footer{
  .card-img-overlay p{
    font-size: 25px;
     font-weight: 700;
-    color: black;
+    color: #283618;
     margin-bottom: 2px;
  }
 
  .grande h5{
    font-size: 21px;
     font-weight: 400;
-    color: black;
+    color: #283618;
     margin-bottom: 2px;}
 
     .card-img-overlay{
@@ -193,8 +193,8 @@ footer{
    }
 
    .card-btn .btn{
-      color: #BC6C25;
-      border-color: #BC6C25;
+      color: #283618;
+      border-color: #283618;
     --bs-btn-color: #fff;
     --bs-btn-bg: rgba(40, 54, 24, 0);
     --bs-btn-border-color: #ffffff;
