@@ -81,6 +81,41 @@ body{
    color: #606C38;
 }
 
+/* Main */
+
+.foto-about{
+   float: left;
+   margin: 0;
+}
+
+.texto-about{
+   margin-left: 52%;
+   margin-right: 5%;
+   margin-bottom: 7%;
+   padding-top: 17%;
+   padding-bottom: 4%;
+   padding-left: 4.5%;
+}
+
+.texto-about h2{
+   color: #BC6C25;
+   font-family: 'Bebas Neue', sans-serif;
+   padding-bottom: 5%;
+}
+
+.proceso{
+   padding: 4%;
+   color: #283618;
+}
+
+.proceso h2{
+   font-family: 'Bebas Neue', sans-serif;
+}
+
+.proceso p{
+   font-weight: 500;
+}
+
  /* Footer */
 
 footer{

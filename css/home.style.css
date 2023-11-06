@@ -82,6 +82,20 @@ p{
    color: #606C38;
 }
 
+/* Main */
+
+.slogan{
+   margin: 5%;
+   text-align: center;
+   font-family: 'Bebas Neue', sans-serif;
+}
+
+.slogan h1{
+   font-size: 90px;
+   color: #BC6C25;
+}
+
+
 /* Footer */
 
 footer{
