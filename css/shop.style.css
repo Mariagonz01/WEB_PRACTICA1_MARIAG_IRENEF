@@ -83,77 +83,11 @@ body{
 
  /* Shop */
 
-.row>*{
-    padding: 0px;
-    margin: 0px;
-}
-
-.shop-card{
-    position: relative;
-    display: inline-block;
-    text-align: left;
-}
-
-.texto-encima{
-    position: absolute;
-    bottom: 50px;
-    left: 50px;
-}
-
 .cuatro{
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
 }
-
-/* Footer */
-
-footer{
-    margin: 0;
-    background-color: #283618;
-    color:white;
-    padding-bottom: 0px !important;
- }
- 
- .py-5{
-    padding-bottom: 0px !important;
- }
- 
- .suscribir{
-    background-color:#283618;
-    color:white;
-    border-color: white;
-    --bs-btn-color: #fff;
-     --bs-btn-bg: #283618;
-     --bs-btn-border-color: #283618;
-     --bs-btn-hover-color: #283618;
-     --bs-btn-hover-bg: white;
-     --bs-btn-hover-border-color: #283618;
-     --bs-btn-active-color: #fff;
-     --bs-btn-active-bg: #283618;
-     --bs-btn-active-border-color: white;
-     --bs-btn-focus-shadow-rgb: none;
-     --bs-btn-active-shadow: none;
-     --bs-btn-disabled-color: #fff;
-     --bs-btn-disabled-bg: #283618;
-     --bs-btn-disabled-border-color: white;
- }
- 
- .form{
-    flex-direction: column !important;
- }
- 
- .newsletter{
-    padding-right: 70px;
-    margin-left: 0;
- }
- 
- .f-link{
-    color: white !important;
-    font-size:11px ;
-    font-weight: 200;
-    padding-top: 8px !important;
- }
 
 
  /* Card */
@@ -171,7 +105,7 @@ footer{
 
  .image-container{
     position: relative;
-    width: 359px;
+    width: 100%;
  }
 
  .image-container img{
@@ -180,76 +114,59 @@ footer{
     display: block;
  }
 
- .overlay{
+ .card-img-overlay{
     position: absolute;
     top: 0;
+    padding-bottom: 60px;
+    padding-left: 30px;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0); /* Inicialmente transparente */
     transition: background-color 0.3s;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    text-align: left;
     opacity: 0;
  }
 
- .image-container:hover .overlay {
-    background-color: rgba(51, 22, 167, 0.7); /* Color de fondo con opacidad al pasar el cursor */
+ .card-img-overlay h5{
+   font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 2px;
+ }
+
+ .card-img-overlay p{
+   font-size: 25px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 2px;
+ }
+
+ .grande h5{
+   font-size: 21px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 2px;
+ }
+
+ .grande p{
+   font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 2px;
+ }
+
+
+
+ .image-container:hover .card-img-overlay {
+    background-color: #fefae090; /* Color de fondo con opacidad al pasar el cursor */
     opacity: 1;
 }
 
-footer{
-    margin: 0;
-    background-color: #283618;
-    color:white;
-    padding-bottom: 0px !important;
- }
- 
- .py-5{
-    padding-bottom: 0px !important;
- }
- 
- .suscribir{
-    background-color:#283618;
-    color:white;
-    border-color: white;
-    --bs-btn-color: #fff;
-     --bs-btn-bg: #283618;
-     --bs-btn-border-color: #283618;
-     --bs-btn-hover-color: #283618;
-     --bs-btn-hover-bg: white;
-     --bs-btn-hover-border-color: #283618;
-     --bs-btn-active-color: #fff;
-     --bs-btn-active-bg: #283618;
-     --bs-btn-active-border-color: white;
-     --bs-btn-focus-shadow-rgb: none;
-     --bs-btn-active-shadow: none;
-     --bs-btn-disabled-color: #fff;
-     --bs-btn-disabled-bg: #283618;
-     --bs-btn-disabled-border-color: white;
- }
- 
- .form{
-    flex-direction: column !important;
- }
- 
- .newsletter{
-    padding-right: 70px;
-    margin-left: 0;
- }
- 
- .f-link{
-    color: white !important;
-    font-size:11px ;
-    font-weight: 200;
-    padding-top: 8px !important;
- }
-
- .logofooter{
-   margin-top: 2.5%;
- }
 
  /* Footer */
 
