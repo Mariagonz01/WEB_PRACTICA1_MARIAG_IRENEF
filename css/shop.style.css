@@ -83,6 +83,22 @@ body{
 
  /* Shop */
 
+ .slogan{
+   margin: 5%;
+   padding-top: 5%;
+   margin-left: 1%;
+   margin-right: 1%;
+   font-family: 'Bebas Neue', sans-serif;
+}
+
+.slogan h5{
+   color: #BC6C25;
+   float: left;
+   padding-right: 2.2%;
+   text-align: center;
+
+}
+
 .cuatro{
    display: flex;
    flex-direction: row;
