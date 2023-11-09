@@ -152,10 +152,6 @@ body{
    opacity: 0;
 }
 
-@media screen {
-   
-}
-
 .image-container:hover .card-img-overlay {
    background-color: #fefae090; /* Color de fondo con opacidad al pasar el cursor */
    opacity: 1;
