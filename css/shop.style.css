@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-   padding-top: 60px
+   padding-top: 6%;
  }
  
  h6{
@@ -18,7 +18,7 @@ body{
 
   .logoheader{
    align-items: left;
-   padding: 20px;
+   padding: 14px;
 }
 
 #header{
@@ -27,6 +27,7 @@ body{
    justify-content: center;
    position: fixed;
    top: 0;
+   padding-top: 15px;
    width: 100%;
    z-index: 1000;
 }
@@ -46,7 +47,6 @@ body{
    font-weight:700px !important;
    color: #283618 !important;
    background-color: rgba(255, 255, 255, 0.46);
-
 }
 
 .header-text ul{
@@ -54,11 +54,10 @@ body{
    align-items: center;
 }
 
-
-.icono{
-   display: flex;
-   justify-content: space-around;
+.header-text ul li{
+   margin: 0;
 }
+
 
 .pagina-actual{
    display: flex;
@@ -68,29 +67,48 @@ body{
    border-style: solid;
    border-color: #283618;
    border-width: 1px;
+   padding-left: 10%;
+   padding-right: 10%;
 }
 
-.col3{
-   margin-top: 0.5%;
+.icono1{
+   display: flex;
+   justify-content: flex-end;
 }
 
+.iconos-des{
+   display: flex;
+   flex-direction: row;
+}
+
+.iconos-des .icono1{
+   margin-right: 5px;
+}
+
+
+@media (min-width:990px){
+   .iconos-des{
+      display: none;
+   }
+
+   .pagina-actual{
+      padding-left: 0%;
+      padding-right: 0%;
+   }
+}
 
 @media (max-width:990px) {
    .col1{
       display: none;
    }
-   .col3{
-      display: none;
-   }
-   .iconos{
-      display: none;
-   }
-}
 
-.header-text{
-   font-size: 12px;
-   font-weight: 700;
-   color: #606C38;
+   .col3{
+      display:none
+   }
+
+   body{
+      padding-top: 10%;
+   }
 }
 
  /* Shop */
@@ -246,6 +264,10 @@ footer{
 .logofooter{
   margin-top: 2.5%;
 }
+
+
+
+/* Slogan */
 
 @media (min-width: 1200px){
    .slogan h5 {

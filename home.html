@@ -18,69 +18,69 @@
         <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="img/favicon.png"/>
   </head>
 <body>
-    <header>
-      <div class="container text-center">
-        <div class="row">
-          <div class="container-fluid" id="header">
-            <nav class="navbar fixed-top bg-body-tertiary bg-success">
-              <div class="container text-center">
-                <div class="row align-items-start">
-                  <div class="col col1">
-                    <div class="navbar-header">
-                      <a class="navbar-brand logoheader" href="#">
-                          <img src="img/Revol.png" alt="Bootstrap" width="35%" height="25%">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary menu">
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <img src="img/Revol.png" alt="Bootstrap" width="80px" height="50px">
-                      </button>
-                      <div class="collapse navbar-collapse barra" id="navbarNav">
-                          <ul class="navbar-nav mx-auto header-text">
-                              <li class="nav-item pagina-actual">
-                                  <a class="nav-link" href="home.html">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="shop.html">Shop</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="about.html">About Us</a>
-                              </li>
-                              <li class="nav-item icono">
-                                <a class="nav-link" href="#">
-                                  <img src="img/user_bolsa.png" alt="Bolsa" width="20" height="20">
-                                </a>
-                            </li>
-                            <li class="nav-item icono">
-                                <a class="nav-link" href="#">
-                                  <img src="img/user.png" alt="User" width="20" height="20">
-                                </a>
-                            </li>
-                              
-                          </ul>
-                       </div>
-                    </nav>
-                  </div>
-                  <div class="col col3">
-                    <div class="navbar-header logoheader">
-                      <a class="navbar-brand" href="#">
-                        <img src="img/user_bolsa.png" alt="Bootstrap" width="12%" height="12%">
-                      </a>
-                      <a class="navbar-brand" href="#">
-                        <img src="img/user.png" alt="Bootstrap" width="14%" height="14%">
-                      </a>
-                    </div>
-                  </div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="col" id="header">
+
+        <div class="col-4 navbar-header col1">
+          <a class="navbar-brand logoheader" href="#">
+              <img src="img/Revol.png" alt="" width="20%">
+          </a>
+        </div>
+
+        <nav class="col-4 navbar navbar-expand-lg">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="img/Revol.png" alt="Bootstrap" width="50%">
+          </button>
+          <div class="collapse navbar-collapse shadow header-text" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                  <li class="nav-item pagina-actual">
+                      <a class="nav-link" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav mx-auto iconos-des">
+                  <li class="navbar-brand">
+                    <a class="nav-link icono1" href="#">
+                      <img src="img/user_bolsa.png" alt="Bolsa" width="15%">
+                    </a>
+                  </li>
+                  <li class="navbar-brand">
+                    <a class="nav-link icono2" href="#">
+                      <img src="img/user.png" alt="User" width="16%">
+                    </a>
+                  </li>
+                  </ul>
               </div>
             </nav>
-          </div> 
-        </div>
-      </div>
-     </div>
-    </div>
-    </header>
+
+            <nav class="col-4 navbar navbar-expand-lg col3">
+              <div class="collapse navbar-collapse header-text" id="navbarNav">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="navbar-brand">
+                      <a class="nav-link icono1" href="#">
+                        <img src="img/user_bolsa.png" alt="Bolsa" width="12%">
+                      </a>
+                    </li>
+                    <li class="navbar-brand">
+                      <a class="nav-link icono2" href="#">
+                        <img src="img/user.png" alt="User" width="13%">
+                      </a>
+                    </li>
+                    </ul>
+                  </div>
+                </nav>
+          </div>
+        </nav>
+  </header>
+
+
 
     <main>
 
@@ -139,7 +139,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-lg-4 card text-bg-dark">
+          <div class="col-12 col-lg-4 card text-bg-dark">
             <div class="image-container">
               <img src="img/home_coleccion1_3.png" class="card-img" alt="...">
               <div class="card-img-overlay grande">
@@ -154,16 +154,20 @@
           </div>
         </div>
       </div>
+
       
             <!-- HUELLAS -->
       
             <div class="huellas">
-              <img src="img/home_huellas1.png" alt="" class="src">
+              <img src="img/home_huellas1.png" alt="" class="img-fluid">
             </div>
+
+
+
       
       <div class="g-0">
         <div class="row">
-          <div class="col-6 col-lg-4 card text-bg-dark">
+          <div class="col-12 col-lg-4 card text-bg-dark">
             <div class="image-container">
               <img src="img/home_coleccio2_1.png" class="card-img" alt="...">
               <div class="card-img-overlay grande">
@@ -177,7 +181,7 @@
             </div>
           </div>
     
-          <div class="col-6 col-lg-4 card text-bg-dark">
+          <div class="col-12 col-lg-4 card text-bg-dark">
             <div class="image-container">
               <img src="img/home_coleccion2_2.png" class="card-img" alt="...">
               <div class="card-img-overlay grande">
@@ -192,7 +196,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-lg-4 card text-bg-dark">
+          <div class="col-12 col-lg-4 card text-bg-dark">
             <div class="image-container">
               <img src="img/home_coleccion2_4.png" class="card-img" alt="...">
               <div class="card-img-overlay grande">

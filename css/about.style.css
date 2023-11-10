@@ -14,82 +14,99 @@ body{
 
 /* Header */
 
+.logoheader{
+   align-items: left;
+   padding: 14%;
+}
+
 #header{
+   display: flex;
+   flex-direction: row;
    justify-content: center;
+   position: fixed;
+   top: 0;
+   padding-top: 15px;
+   width: 100%;
+   z-index: 1000;
+}
+
+.navbar{
+   --bs-navbar-toggler-border-color:none !important;
+   box-shadow: none !important;
+   justify-content: center !important;
+}
+
+.navbar-toggler:focus{
+   box-shadow: none !important;
 }
 
 .header-text{
    font-size: 12px !important;
    font-weight:700px !important;
    color: #283618 !important;
-   background-color: BC6C25;
+   background-color: rgba(255, 255, 255, 0);
 }
+
+.header-text ul{
+   align-self: auto;
+   align-items: center;
+}
+
+.header-text ul li{
+   margin: 0;
+}
+
 
 .pagina-actual{
+   display: flex;
+   flex-direction: column;
    font-weight: bolder;
-   background-color: #BC6C25;
+   background-color: #bc6b2586;
    border-style: solid;
    border-color: #283618;
-   border-width: 2px;
+   border-width: 1px;
+   padding-left: 10%;
+   padding-right: 10%;
 }
 
-.logoheader{
-   align-items: left;
+.icono1{
+   display: flex;
+   justify-content: flex-end;
 }
 
-.bg-body-tertiary {
-   --bs-bg-opacity: 1;
-   background-color: rgba(255, 255, 255, 0)!important;
-   padding: 0, 20%, 0, 2%;
+.iconos-des{
+   display: flex;
+   flex-direction: row;
 }
 
-.navbar-toggler{
-   --bs-bg-opacity: 1;
-   background-color: rgba(255, 255, 255, 0)!important;
-   padding: 0, 20%, 0, 2%;
+.iconos-des .icono1{
+   margin-right: 5px;
 }
 
-.navbar-collapse{
-   border-style: none;
-}
 
-.col3{
-   margin-top: 0.5%;
-}
+@media (min-width:990px){
+   .iconos-des{
+      display: none;
+   }
 
-.button{
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background: transparent;
-   border: none;
-   cursor: pointer;
+   .pagina-actual{
+      padding-left: 0%;
+      padding-right: 0%;
+   }
 }
 
 @media (max-width:990px) {
    .col1{
       display: none;
    }
-}
 
-@media (max-width:990px) {
    .col3{
-      display: none;
+      display:none
    }
-}
 
-@media (min-width:990px) {
-   .icono{
-      display: none;
+   body{
+      padding-top: 10%;
    }
-}
-
-.header-text{
-   font-size: 12px;
-   font-weight: 700;
-   color: #606C38;
 }
 
 /* Main */
