@@ -117,8 +117,7 @@ body{
 }
 
 .foto-producto{
-    width: 500px;
-    height: 580px;
+    width: 80%;
 }
 
 .texto-producto{
@@ -194,20 +193,20 @@ body{
  .btn-outline-primary{
     color: #283618;
     border-color: #283618;
-  --bs-btn-color: #fff;
+  --bs-btn-color:#BC6C25;
   --bs-btn-bg: rgba(40, 54, 24, 0);
   --bs-btn-border-color: #ffffff;
   --bs-btn-hover-color: #ffffff;
   --bs-btn-hover-bg: rgba(255, 255, 255, 0.334);
-  --bs-btn-hover-border-color: #ffffff;
-  --bs-btn-active-color: #fff;
+  --bs-btn-hover-border-color: white;
+  --bs-btn-active-color: white;
   --bs-btn-active-bg: #bc6b2582;
   --bs-btn-active-border-color: white;
   --bs-btn-focus-shadow-rgb: none;
   --bs-btn-active-shadow: none;
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #28361800;
-  --bs-btn-disabled-border-color: white;
+  --bs-btn-disabled-border-color: #BC6C25;
 
   font-size: 14px;
   font-weight: 400;
@@ -220,6 +219,10 @@ body{
 
 .accordion-body{
     font-size: smaller;
+}
+
+.accordion{
+   --bs-accordion-btn-focus-box-shadow:none !important;
 }
 
 /* Footer */
